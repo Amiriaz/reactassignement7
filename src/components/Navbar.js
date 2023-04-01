@@ -35,7 +35,7 @@ function DrawerAppBar(props) {
             <Divider />
             <List>
                 {[{
-                    route: '/registrationDetail', name: 'Registration Details'
+                    route: '/Students', name: 'Students Details'
                 },
                 { route: '/quizform', name: 'Quiz Form' },
                 { route: '/quizdetail', name: 'Quiz Detail' },
@@ -82,7 +82,7 @@ function DrawerAppBar(props) {
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {
                             [{
-                                route: '/registrationDetail', name: 'Registration Details'
+                                route: '/Students', name: 'Students Details'
                             },
                             { route: '/quizform', name: 'Quiz Form' },
                             { route: '/quizdetail', name: 'Quiz Detail' },

@@ -173,16 +173,11 @@ function Institutedashboard(props) {
        </Box>
       <Box sx={{ display: { xs: '', sm: 'block' } }}>
                         {
-                            [{
-                                route: '/', name: 'Course List'
-                            },
+                            [
                             {
                                 route: '/Course', name: 'Course form'
                             },
-                            { route: '/', name: 'Registration Control' 
-                          },
-                          { route: '/', name: 'Result' 
-                        }
+                           
                         ]
                             .map((page, index) => (
                                 <Button key={index} onClick={() => navigate(page.route)} sx={{ color: '#fff' }}>

@@ -21,6 +21,8 @@ function AppRouter() {
    <Routes>
    <Route path="/" element={<MenuAppBar/>}/>
    <Route path='/admin' element={<CheckAdmin />} />
+   <Route path='/a1ae0493-7826-43b9-90ae-76750cb43f09' element={<CheckAdmin />} />
+
    <Route path="/Students" element={<ProtectedRoute Component={Studentsdashboard} />}/>
    <Route path='/showReg' element={<ShowRegistration />} />
    <Route path="/Institute" element={<ProtectedRoute Component={Institutedashboard} />}/>
